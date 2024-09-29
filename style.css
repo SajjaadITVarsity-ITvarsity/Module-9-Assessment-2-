@@ -1,15 +1,15 @@
 body {
   font-family: "Lato", sans-serif;
-  background-color: #f0f0f0; /* soft gray background */
+  background-color: #f0f0f0; 
 }
 
 #local {
   width: 100%;
-  background-color: #e6d8c3; /* muted beige background */
+  background-color: #e6d8c3; 
   padding: 15px 0;
   margin: 0;
   font-size: 1.5rem;
-  color: #786c3b; /* warm brown text */
+  color: #786c3b; 
   text-align: center;
   border-bottom: 1px solid #ccc;
 }
@@ -17,12 +17,12 @@ body {
 #cities {
   border-collapse: collapse;
   width: 100%;
-  border: 1px solid #ccc; /* light gray border */
+  border: 1px solid #ccc; 
 }
 
 #cities th {
-  background-color: #d9d2c4; /* soft gray-brown background */
-  color: #786c3b; /* warm brown text */
+  background-color: #d9d2c4; 
+  color: #786c3b; 
   padding: 10px;
   border-bottom: 1px solid #ccc;
 }
@@ -33,11 +33,11 @@ body {
 }
 
 #cities tr:nth-child(even) {
-  background-color: #f5f5f5; /* light gray background */
+  background-color: #f5f5f5; 
 }
 
 #cities tr:hover {
-  background-color: #e6d8c3; /* muted beige background on hover */
+  background-color: #e6d8c3; 
 }
 
 #cities td img {
@@ -53,13 +53,13 @@ body {
   flex-basis: 45%;
 }
 
-/* Add some interactive hover effects to the table rows */
+
 #cities tr:hover {
   transform: scale(1.01);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Add some padding to the table container */
+
 #output {
   padding: 20px;
 }
